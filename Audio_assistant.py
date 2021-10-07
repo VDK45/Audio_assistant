@@ -53,12 +53,12 @@ def command():
 
 
 def actions(phrase):
-     if 'left' in phrase:
+     if 'open twitch' in phrase:
           talk('Open twitch')
           url = 'https://www.twitch.tv/vdk45'
           webbrowser.open(url)
 
-     if 'right' in phrase:
+     if 'open youtube' in phrase:
           talk('Open youtube')
           url = 'https://www.youtube.com/'
           webbrowser.open(url)
